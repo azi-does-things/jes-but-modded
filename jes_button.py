@@ -1,7 +1,7 @@
 import pygame
 from jes_shapes import centerText
 import time
-
+#nothing to do here...
 class Button:
     def __init__(self,ui,pdim,pnames,pfunc):
         self.dim = pdim  # Dim is a list of 4 parameters: x, y, width, height
@@ -26,4 +26,5 @@ class Button:
     def click(self):
         self.setting = (self.setting+1)%len(self.names)
         self.timeOfLastClick = time.time()
+
         self.func(self)
