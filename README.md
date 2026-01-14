@@ -10,9 +10,9 @@ NOTE: This project, like all my projects, are not meant to be consumer products 
 
 # Key-controls
 
-ESC: Close the program
+ESC: [OBSOLETE]
 
-X: Toggle whether or not X's show up over killed jellies
+X: Toggle whether or not X's show up over killed jellies (true) 
 
 S: Store the species you're highlighting in memory. (Press S a 2nd time to unstore.) Why do this? Well, say you notice there's a creature who got #1 in a certain generation, but you can't find any trace of it elsewhere. Now, you can highlight the creature, press S, and their species bubble will show up in the upper-left. Then, roll your mouse 
 over the species bubble, and there's all the species info!
