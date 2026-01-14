@@ -5,7 +5,7 @@ import numpy as np
 import math
 from jes_species_info import SpeciesInfo
 import random
-
+# really NOTHING to do here. 
 class Creature:
     def __init__(self,d,pIDNumber,parent_species,_sim,_ui):
         self.dna = d
@@ -149,4 +149,5 @@ class Creature:
             green_ness = lerp(prevGreen,nextGreen,prog)
             color_result = listLerp(color_result,(0,255,0,255),green_ness)
         
+
         return color_result
